@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#141414" />
+  <!-- iOS paints the strip behind the clock/battery with this. It must match the
+       TOP of the sticky header's gradient (theme.css `header`), not the old flat
+       #141414 the Aug-4 premium pass retired — that left a black notch over a
+       warm-ink header on every phone. -->
+  <meta name="theme-color" content="#221D16" />
   <title>Lightware — سندات</title>
   <script type="module" crossorigin src="./assets/index-z4o5gTHO.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-C-tjgnc8.css">
