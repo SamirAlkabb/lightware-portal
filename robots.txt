@@ -1,0 +1,4 @@
+# Internal tool — not for search.
+# Crawling is allowed so the noindex meta tag in index.html is actually read.
+User-agent: *
+Allow: /
