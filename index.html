@@ -9,6 +9,18 @@
        warm-ink header on every phone. -->
   <meta name="theme-color" content="#221D16" />
   <title>Lightware — سندات</title>
+  <!-- The portal's own mark: the house L. redrawn as a P. on an amber tile. The
+       GROUND is what tells it from the storefront and the warehouse at 16px —
+       a letter is 3 or 4 pixels of ink there and every letter looks the same.
+       Masters + the reasoning: brand/logo/build_appicons.py. ⚠ Edit them THERE
+       and copy across, or this app keeps the old one. -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <!-- iOS truncates a home-screen label to roughly 12 characters, so it gets the
+       short name rather than the whole <title>. This does NOT make the web clip
+       launch standalone — that needs -capable, which is a behaviour change and
+       deliberately not made here. -->
+  <meta name="apple-mobile-web-app-title" content="سندات" />
   <!-- Internal tool. Login-walled, but the shell HTML is public on GitHub Pages —
        without this Google indexes a staff console under the brand name and
        competes with www for the "Lightware" query. robots.txt ALLOWS crawling
